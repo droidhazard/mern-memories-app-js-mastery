@@ -17,7 +17,7 @@ const CONNECTION_URL = `mongodb+srv://droidgamezz:droidgamezz1@cluster0.wnfwpoi.
 const PORT = process.env.PORT || 5000;
 
 mongoose
-  .connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
+  .connect(CONNECTION_URL)
   .then(() => {
     app.listen(PORT, () => {
       console.log("App listening on: ", PORT);
