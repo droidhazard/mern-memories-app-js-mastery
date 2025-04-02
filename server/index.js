@@ -12,7 +12,7 @@ app.use(cors());
 
 app.use("/posts", router);
 
-const CONNECTION_URL = `mongodb+srv://droidgamezz:droidgamezz1@cluster0.wnfwpoi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
+const CONNECTION_URL = `mongodb+srv://username:password@cluster0.wnfwpoi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
 
 const PORT = process.env.PORT || 5000;
 
